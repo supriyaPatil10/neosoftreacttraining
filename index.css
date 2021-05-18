@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link:active{
+background-color: black;
+
+}
+
+.nav-item{
+  padding: "20px";
+background: "blanchedalmond";
+color: "black";
+}
+
+.cutomheading{
+
+  color: brown;
+  font-size: 43px;
+  font-style: italic;
+}
+
+     p { 
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+  }
+ 
+  h1, h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  }
+  h2 {
+  margin: 0 0 0 8px;
+  }
+  .Addresstitle .main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.5); 
+  }
+  .left-part, form {
+  padding: 25px;
+  }
+  .left-part {
+  text-align: center;
+  }
+  .fa-graduation-cap {
+  font-size: 72px;
+  }
+  .addressform {
+  background: rgb(154 189 209 / 70%); 
+  }
+  .Addresstitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  .Addressinfo {
+  display: flex;
+  flex-direction: column;
+  }
+  .Addressinput {
+  padding: 5px;
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  }
+  .Addressinput::placeholder {
+  color: #000;
+  }
+  /* option:focus {
+  border: none;
+  }
+  option {
+  background: black; 
+  border: none;
+  }
+  .checkbox input {
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  }
+  .checkbox a {
+  color: #26a9e0;
+  }
+  .checkbox a:hover {
+  color: #85d6de;
+  } */
+  /* .btn-item, button {
+  padding: 10px 5px;
+  margin-top: 20px;
+  border-radius: 5px; 
+  border: none;
+  background: #26a9e0; 
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  }
+  .btn-item {
+  display: inline-block;
+  margin: 20px 5px 0;
+  }
+  button {
+  width: 100%;
+  }
+  button:hover, .btn-item:hover {
+  background: #85d6de;
+  } */
+  @media (min-width: 568px) {
+  html, body {
+  height: 100%;
+  }
+  .main-block {
+  flex-direction: row;
+  height: calc(100% - 50px);
+  }
+  .left-part, form {
+  flex: 1;
+  height: auto;
+  }
+  }
+  #addressForm {
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #2e3539;
+    padding: 20px;
+    width:100%;
+    height: 100%;
+  }
+
+  
+
+  .nav-link a{
+    
+    color: white;
+  }
+
+  a.nav-link.active {
+    background: #991943e0;
+    color: white;}
+
+    a.nav-link {
+      color: white;
+      box-shadow: 5px 10px 18px #2e3539;
+      padding: 20px 13px 20px 10px;
+      background: #991943e0;
+  }
+  
+  li.nav-item {
+    padding: 7px;
+}
+
+.customtabs{padding-top: 101px;
+    padding-right: 20px;
+    padding-left: 108px;}
+
+    a.nav-link:hover {
+      background: white;
+      color: black;}
+
+      .form-error{
+        color: red;
+      }
+
+    .placeorderbtn{
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    
+
+    img.card-img-top{
+      width:"200px";
+      height: "200px";
+    }
+
+    .cardcustom:hover{
+      background-color: #e1306152;
+
+    }
+
+
+    .customcardsec{
+      border-radius: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #2e3539;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    }
+
+    .fromcustom{
+      border-radius: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #2e3539;
+    padding: 20px;
+    width:50%;
+     margin:auto;
+    }
+
+    .customizedcakecard{
+      width: 227px;
+    
+    margin-left: 70px;
+    margin-top: 20px;
+    }
+
+    .customizedcakecard:hover{
+      background-color: #e1306152;
+
+    }
+
+    .loader-container{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #F8F8F8AD;
+    }
+    .loader{
+      left: 50%;
+      top: 30%;
+      z-index: 1000;
+      position: absolute;
+    }
+    .profile-pic-uploader{
+      width: 260px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 15px;
+    }
+
+
+    .myordercustom{
+      border-radius: 25px;
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px 18px #2e3539;
+      padding: 20px;
+      width:70%;
+       margin:auto;
+    }
+
+    .mdbcustom{
+      padding: 40px 50px 50px 50px;
+    }
+
+    .customheading{
+      box-shadow: 5px 10px 424px #281f16;
+      margin: auto;
+      text-align: center;
+      width: 24%;
+      padding: 10px 8px 8px 8px;
+      background-color: #eab350;
+    }
+
+    .customorderheading{
+      box-shadow: 5px 10px 24px #281f16;
+      margin: auto;
+      text-align: center;
+      width: 24%;
+      padding: 10px 8px 8px 8px;
+      background-color: #007bffab;
+    }
